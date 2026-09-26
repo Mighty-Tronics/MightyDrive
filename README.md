@@ -48,4 +48,6 @@ Firmware development, enclosure selection, final regulatory assessment, and high
 
 ## License
 
-This project is licensed under the **GNU General Public License, version 3.0 only (GPL-3.0-only)**. See the [`LICENSE`](LICENSE) file for the full terms. If the license file is not yet present in the repository, add the official GPLv3 text before publishing. Check separately that any third-party documents, data sheets, artwork, and manufacturer files included in the repository may be redistributed; this project's license does not grant rights over those materials.
+The hardware design files and original project documentation are licensed under the **CERN Open Hardware Licence Version 2 - Strongly Reciprocal (CERN-OHL-S-2.0)**. See the [`LICENSE`](LICENSE) file for the full terms. This version of the project does not include firmware or other software.
+
+Third-party data sheets, manufacturer files, and other external materials retain their respective owners' rights and are not covered by this project's license. Add the official CERN-OHL-S-2.0 license text to the repository before publication.
