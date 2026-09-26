@@ -48,6 +48,12 @@ Firmware development, enclosure selection, final regulatory assessment, and high
 
 ## License
 
-The hardware design files and original project documentation are licensed under the **CERN Open Hardware Licence Version 2 - Strongly Reciprocal (CERN-OHL-S-2.0)**. See the [`LICENSE`](LICENSE) file for the full terms. This version of the project does not include firmware or other software.
+| Project material | License |
+| --- | --- |
+| Hardware design (schematic, PCB, fabrication files and BOM) | **CERN-OHL-S-2.0** |
+| Original project documentation | **CERN-OHL-S-2.0** |
+| Software / firmware | **None included in this release** |
 
-Third-party data sheets, manufacturer files, and other external materials retain their respective owners' rights and are not covered by this project's license. Add the official CERN-OHL-S-2.0 license text to the repository before publication.
+The full terms of the CERN Open Hardware Licence Version 2 - Strongly Reciprocal are in [`LICENSE`](LICENSE). Modified versions of the hardware design are subject to its reciprocal terms. Add the official license text to that file before publishing this release. If software is added later, identify its license separately.
+
+Third-party data sheets, manufacturer files, and other external materials retain their respective owners' rights. They are not licensed under CERN-OHL-S-2.0 by their inclusion in this repository.
