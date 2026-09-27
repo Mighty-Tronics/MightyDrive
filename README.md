@@ -163,7 +163,7 @@ The native KiCad files are the authoritative editable design sources. Rendered s
 
 Every hardware release must identify its PCB revision or release date and match it to an immutable repository tag, BOM, schematic, layout and validation evidence.
 
-Master Drawing('https://github.com/Mighty-Tronics/MightyDrive/blob/main/Documentation/Pump_Interface_MasterDrawing_Rev_A.pdf')
+Master Drawing : https://github.com/Mighty-Tronics/MightyDrive/blob/main/Documentation/Pump_Interface_MasterDrawing_Rev_A.pdf
 
 ## Open hardware status
 
