@@ -152,14 +152,11 @@ The release repository should keep the editable design sources and the generated
 
 ```text
 .
-├── hardware/
-│   ├── source/          # Native KiCad project, schematic and PCB files
-│   └── manufacturing/   # Gerbers, drill files, drawings and assembly outputs
-├── bom/                 # Bill of materials and sourcing information
-├── docs/                # Functional description, calculations and test reports
-├── images/              # Board and assembly photographs
-├── LICENSE.md
-└── README.md
+├── Documentation/  #Includes BOM (ODS and CSV format), schmeatics (PNGformat), drill maps (PDF format), gerbers and Excellon files for PCB manuifacturers (Zip file) and Functional and Engineering notes (PDF format)
+├── Kicad_Files/    #Includes Includes all Kicad files to view or edit the shcematic and pcb.
+├── README.md       #Quick project description
+├── LICENSE.md      #License description
+
 ```
 
 The native KiCad files are the authoritative editable design sources. Rendered schematics, PDFs and manufacturing files are provided for convenient review and production, but do not replace the native source files.
@@ -178,10 +175,7 @@ The design is released under the **CERN Open Hardware Licence Version 2 — Stro
 
 Third-party data sheets and manufacturer files retain their owners' respective rights and are not relicensed by their inclusion or citation.
 
-The project is being documented for an open-hardware release. Publication of this repository does not by itself constitute OSHWA certification. The OSHWA certification mark must only be used after approval and assignment of a project UID.
-
-- [Open Source Hardware Definition](https://oshwa.org/definition/)
-- [OSHWA Certification Requirements](https://certification.oshwa.org/requirements.html)
+The project is being documented for an open-hardware release. 
 - [CERN Open Hardware Licence Version 2](https://ohwr.org/cern_ohl_s_v2.txt)
 
 ## Documentation
@@ -189,7 +183,4 @@ The project is being documented for an open-hardware release. Publication of thi
 The detailed functional description, engineering calculations, component-level implementation and qualification criteria are provided in the project documentation under `docs/`.
 
 ## Maintainer
-
-**Mighty Tronics®**  
-[mightytronics.eu](https://mightytronics.eu/)  
 [info@mightytronics.eu](mailto:info@mightytronics.eu)
