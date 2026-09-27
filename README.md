@@ -152,7 +152,7 @@ The release repository should keep the editable design sources and the generated
 
 ```text
 .
-├── Documentation/  #Includes BOM (ODS and CSV format), schmeatics (PNGformat), drill maps (PDF format), gerbers and Excellon files for PCB manuifacturers (Zip file) and Functional and Engineering notes (PDF format)
+├── Documentation/  #Includes BOM (ODS and CSV format), schmeatics (PNGformat), drill maps (PDF format), gerbers and Excellon files for PCB manuifacturers (Zip file), Master drawing (PDF format) and Functional and Engineering notes (PDF format)
 ├── Kicad_Files/    #Includes Includes all Kicad files to view or edit the shcematic and pcb.
 ├── README.md       #Quick project description
 ├── LICENSE.md      #License description
