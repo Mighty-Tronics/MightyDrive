@@ -1,5 +1,7 @@
 # MT Drive — Four-Channel PWM Pump Interface
 
+![PCB 3D](https://github.com/Mighty-Tronics/MightyDrive/blob/main/Documentation/PCB-3D.png)
+
 MT Drive is an open-hardware power interface for controlling up to four brushed DC pumps or comparable inductive DC loads from an external microcontroller.
 
 Each channel accepts an independent PWM command and switches the load through a protected low-side MOSFET stage. The microcontroller, firmware, regulated +5 V logic supply, motor supply and pumps remain external to the board.
