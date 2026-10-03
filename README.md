@@ -14,6 +14,8 @@ Each channel accepts an independent PWM command and switches the load through a 
 
 ![Schematic](https://github.com/Mighty-Tronics/MightyDrive/blob/main/Documentation/Schematic2.png)
 
+![PCB](https://github.com/Mighty-Tronics/MightyDrive/blob/main/Documentation/PCB1.png)
+
 | Characteristic | Published specification |
 | --- | --- |
 | Number of channels | 4 independent outputs |
