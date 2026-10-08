@@ -180,7 +180,10 @@ Master Drawing : https://github.com/Mighty-Tronics/MightyDrive/blob/main/Documen
 ## Open hardware status
 
 The design is released under the **CERN Open Hardware Licence Version 2 — Strongly Reciprocal (`CERN-OHL-S-2.0`)**. The complete license text must be available in [`LICENSE.md`](LICENSE.md).
+
 This project is certified by the [Open Source Hardware Association](https://certification.oshwa.org/lu000003.html).
+
+![Cert-Mark](Documentation/certification-mark-LU000003-stacked.png)
 
 | Project material | License |
 | --- | --- |
