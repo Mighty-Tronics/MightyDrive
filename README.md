@@ -1,5 +1,7 @@
 # MT Drive — Four-Channel PWM Pump Interface
 
+**Certified Open Source Hardware — [OSHWA LU000003](https://certification.oshwa.org/lu000003.html)**
+
 ![PCB 3D](https://github.com/Mighty-Tronics/MightyDrive/blob/main/Documentation/PCB-3D.png)
 
 ![PCB-photo1](https://github.com/Mighty-Tronics/MightyDrive/blob/main/Documentation/PCB-F.jpg)
@@ -160,30 +162,43 @@ No CE conformity claim is made solely from this prototype or this repository. Re
 
 ## Repository contents
 
-The release repository should keep the editable design sources and the generated manufacturing outputs clearly separated:
+The repository separates editable design sources from documentation and generated manufacturing outputs:
 
-```text
-.
-├── Documentation/  #Includes BOM (ODS and CSV format), schmeatics (PNGformat), drill maps (PDF format), gerbers and Excellon files for PCB manuifacturers (Zip file), Master drawing (PDF format) and Functional and Engineering notes (PDF format)
-├── Kicad_Files/    #Includes Includes all Kicad files to view or edit the shcematic and pcb.
-├── README.md       #Quick project description
-├── LICENSE.md      #License description
-
-```
+| Location | Contents |
+| --- | --- |
+| `Documentation/` | BOM in ODS and CSV formats; schematic images; drill maps; Gerber and Excellon manufacturing files in a ZIP archive; Master Drawing; functional and engineering notes. |
+| `Kicad_Files/` | Native KiCad files for viewing and editing the schematic and PCB. |
+| `README.md` | Project overview, specifications, integration guidance and certification information. |
+| `LICENSE.md` | Project licence information. |
 
 The native KiCad files are the authoritative editable design sources. Rendered schematics, PDFs and manufacturing files are provided for convenient review and production, but do not replace the native source files.
 
 Every hardware release must identify its PCB revision or release date and match it to an immutable repository tag, BOM, schematic, layout and validation evidence.
 
-Master Drawing : https://github.com/Mighty-Tronics/MightyDrive/blob/main/Documentation/Pump_Interface_MasterDrawing_Rev_A.pdf
+[Master Drawing — Pump Interface, Rev A](https://github.com/Mighty-Tronics/MightyDrive/blob/main/Documentation/Pump_Interface_MasterDrawing_Rev_A.pdf)
 
-## Open hardware status
+## OSHWA certification
 
-The design is released under the **CERN Open Hardware Licence Version 2 — Strongly Reciprocal (`CERN-OHL-S-2.0`)**. The complete license text must be available in [`LICENSE.md`](LICENSE.md).
+[![OSHWA Certified Open Source Hardware — LU000003](Documentation/certification-mark-LU000003-stacked.png)](https://certification.oshwa.org/lu000003.html)
 
-This project is certified by the [Open Source Hardware Association](https://certification.oshwa.org/lu000003.html).
+**MT Drive is certified open source hardware under the Open Source Hardware Association (OSHWA) certification program.** The project is registered as **Mighty Drive** in the official OSHWA directory.
 
-![Cert-Mark](Documentation/certification-mark-LU000003-stacked.png)
+| Certification information | Details |
+| --- | --- |
+| Registered project name | Mighty Drive |
+| Unique identifier (UID) | **LU000003** |
+| Certification date | **3 October 2026** |
+| Official registration | [OSHWA project record — LU000003](https://certification.oshwa.org/lu000003.html) |
+
+OSHWA certification identifies projects that comply with the [Open Source Hardware Definition](https://oshwa.org/definition/). The editable design files and project documentation are published so that users can study, modify, build and distribute the design under the applicable licence.
+
+**Certification scope:** OSHWA certification concerns open-source hardware compliance. It does not certify electrical performance, product safety or CE/EMC conformity. Hardware qualification and final-system regulatory assessment are addressed separately in the validation plan above.
+
+The certification mark and UID refer to the project covered by the official registration. Use of the mark follows the [OSHWA Certification Mark Usage Guidelines](https://certification.oshwa.org/mark-usage.html).
+
+## License
+
+The hardware design and original project documentation are released under the **CERN Open Hardware Licence Version 2 — Strongly Reciprocal (`CERN-OHL-S-2.0`)**. See [`LICENSE.md`](LICENSE.md) and the [official CERN-OHL-S v2 licence text](https://ohwr.org/cern_ohl_s_v2.txt) for the applicable terms.
 
 | Project material | License |
 | --- | --- |
@@ -191,14 +206,12 @@ This project is certified by the [Open Source Hardware Association](https://cert
 | Original project documentation | CERN-OHL-S-2.0 |
 | Software or firmware | None included in this release |
 
-Third-party data sheets and manufacturer files retain their owners' respective rights and are not relicensed by their inclusion or citation.
-
-The project is being documented for an open-hardware release. 
-- [CERN Open Hardware Licence Version 2](https://ohwr.org/cern_ohl_s_v2.txt)
+Third-party data sheets and manufacturer files retain their owners' respective rights and are not relicensed by their inclusion or citation. The OSHWA certification mark remains subject to OSHWA's own usage terms.
 
 ## Documentation
 
-The detailed functional description, engineering calculations, component-level implementation and qualification criteria are provided in the project documentation under Documentation/.
+The detailed functional description, engineering calculations, component-level implementation and qualification criteria are provided in the project documentation under [`Documentation/`](Documentation/).
 
 ## Maintainer
+
 [info@mightytronics.eu](mailto:info@mightytronics.eu)
