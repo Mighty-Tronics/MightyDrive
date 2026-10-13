@@ -14,7 +14,7 @@ MT Drive is an open-hardware power interface for controlling up to four brushed 
 
 Each channel accepts an independent PWM command and switches the load through a protected low-side MOSFET stage. The microcontroller, firmware, regulated +5 V logic supply, motor supply and pumps remain external to the board.
 
-> **Hardware status:** prototype revision V2.0, manufactured by JLCPCB and under qualification.  
+> **Hardware status:** prototype revision V2.0, manufactured by PCBWay and under qualification.  
 > **Published electrical rating:** 2 A continuous per channel, 8 A continuous total.  
 > **Extended operation:** up to 3 A per channel may be characterized, but is not guaranteed for this hardware revision.
 
